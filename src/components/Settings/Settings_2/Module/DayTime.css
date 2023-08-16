@@ -1,0 +1,31 @@
+
+
+
+ 
+/* DayTime.css */
+#day {
+    font-weight: bold;
+  }
+  
+  #switch {
+    margin-left: 8px;
+  }
+  
+  .no-underline {
+    text-decoration: none;
+    border: none; /* Optional: To remove the border as well */
+  }
+  
+  .menu-icon {
+    padding: 0;
+    margin-left: 8px;
+    position: relative;
+  }
+  
+  .menu-item {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+  }
+    

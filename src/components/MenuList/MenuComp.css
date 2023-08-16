@@ -1,0 +1,38 @@
+.menu-container{
+  min-height: 77px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0.5rem;
+  background-color: #85d8d9;
+  border-radius: 10px;
+}
+.menu-contains{
+  display: flex;
+  justify-content: space-between; 
+  padding: 1rem;
+  align-items: center;
+}
+.menu-container .menu-contains .right .heading{
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  margin: 0px;
+}
+.menu-container .menu-contains .right .sub-heading{
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+.menu-container .menu-contains .left {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  justify-content: space-between;
+}
